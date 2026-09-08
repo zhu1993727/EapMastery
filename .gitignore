@@ -1,0 +1,50 @@
+# ============ 编译/生成产物（禁止上传）============
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ============ Visual Studio / IDE 本地文件（禁止上传）============
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============ NuGet / 包缓存 ============
+*.nupkg
+*.snupkg
+packages/
+*.nupkg.metadata
+*.cache
+project.lock.json
+
+# ============ 测试产物 ============
+[Tt]est[Rr]esult*/
+*.trx
+coverage/
+*.coverage
+
+# ============ 其他杂项 ============
+*.log
+*.tmp
+*.temp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ============ 说明 ============
+# 以下内容会被上传（关键代码）：
+#   *.cs, *.csproj, *.sln, *.slnx, *.config, *.json(工程配置), README 等源码与配置文件
