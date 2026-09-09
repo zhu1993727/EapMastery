@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Notes/" />
+  <Folder Name="/Standards/" />
+  <Folder Name="/Weekly/" />
+  <Project Path="EapLab.EquipSim/EapLab.EquipSim.csproj" />
+  <Project Path="EapLab.Gem/EapLab.Gem.csproj" />
+  <Project Path="EapLab.Gem300/EapLab.Gem300.csproj" />
+  <Project Path="EapLab.HostSim/EapLab.HostSim.csproj" />
+  <Project Path="EapLab.Secs2/EapLab.Secs2.csproj" />
+  <Project Path="EapLab.Tests/EapLab.Tests.csproj" />
+  <Project Path="EapLab.Transport/EapLab.Transport.csproj" />
+</Solution>
