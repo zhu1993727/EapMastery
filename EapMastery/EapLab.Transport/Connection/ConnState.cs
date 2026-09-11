@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EapLab.Transport
+namespace EapLab.Transport.Connection
 {
     public enum ConnState
     {

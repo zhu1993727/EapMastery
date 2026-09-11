@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace EapLab.Transport.Logging
 {
+    public enum LogDir {TX ,TR ,EVT,ERR }
     public interface ILogSink
     {
-
+        void Log(LogDir dir,string message);
     }
 }
